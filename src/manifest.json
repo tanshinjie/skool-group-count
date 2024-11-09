@@ -3,7 +3,6 @@
   "name": "1 Click Skool Group Count",
   "version": "0.1.0",
   "description": "Easily view number of groups under each category on Skool.",
-  "permissions": ["activeTab"],
   "action": {},
   "content_scripts": [
     {
