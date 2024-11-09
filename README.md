@@ -1,12 +1,5 @@
 <a id="readme-top"></a>
 
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -57,21 +50,13 @@
 
 1 Click Skool Group Count is a browser extension that allows you to easily view the number of groups under each category on Skool. This extension is useful for users who want to quickly view the number of groups under each category without having to click into each category.
 
-### Before
-[<img src="./demo/before.png" width="400" alt="Before"/>](https://github.com/tanshinjie/skool-group-count/demo/before.png)
-
-
-### After
-[<img src="./demo/after.png" width="400" alt="After"/>](https://github.com/tanshinjie/skool-group-count/demo/after.png)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## Demo
 
-[![Watch the demo](/demo/skool-group-count-demo.mp4)](https://github.com/tanshinjie/skool-group-count/demo/skool-group-count-demo.mp4)
+### What the demo on YouTube
+[![Watch the demo on YouTube](/demo/thumbnail.png)](https://www.youtube.com/watch?v=UoungitbX0Q)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
