@@ -16,9 +16,9 @@
     <br />
     <a href="https://github.com/tanshinjie/skool-group-count">View Demo</a>
     ·
-    <a href="https://github.com/tanshinjie/skool-group-count/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://forms.gle/4VyFskhXyQN3exeS9">Report Bug</a>
     ·
-    <a href="https://github.com/tanshinjie/skool-group-count/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://forms.gle/4VyFskhXyQN3exeS9">Request Feature</a>
   </p>
 </div>
 
