@@ -12,8 +12,7 @@
   <p align="center">
     Easily view number of groups under each category on Skool.
     <br />
-    <!-- TODO: Update extension link -->
-    <a href="https://github.com/tanshinjie/skool-group-count">Install Extension</a>
+    <a href="https://chromewebstore.google.com/detail/1-click-skool-group-count/kpeglkfflpaednnhiihllkjnfheofbag">Install Extension</a>
     <br />
     <a href="https://github.com/tanshinjie/skool-group-count">View Demo</a>
     ·
@@ -22,8 +21,6 @@
     <a href="https://github.com/tanshinjie/skool-group-count/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -41,9 +38,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [<img src="./src/icon.png" width="180" alt="1 Click Skool Group Count"/>](https://github.com/tanshinjie/skool-group-count/src/icon.png)
@@ -52,26 +48,24 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Demo
 
 ### What the demo on YouTube
+
 [![Watch the demo on YouTube](/demo/thumbnail.png)](https://www.youtube.com/watch?v=UoungitbX0Q)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Tan Shin Jie - [Linkedin](https://sg.linkedin.com/in/tanshinjie) - shinjie.work@gmail.com
@@ -80,18 +74,18 @@ Project Link: [https://github.com/tanshinjie/skool-group-count](https://github.c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Feature Request from Life Coach Bob](https://www.skool.com/community/feature-request-7bd1d059)
-* [@othneildrew for the awesome README template](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
+- [Feature Request from Life Coach Bob](https://www.skool.com/community/feature-request-7bd1d059)
+- [@othneildrew for the awesome README template](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -120,4 +114,4 @@ Project Link: [https://github.com/tanshinjie/skool-group-count](https://github.c
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
