@@ -14,7 +14,7 @@
     <br />
     <a href="https://chromewebstore.google.com/detail/1-click-skool-group-count/kpeglkfflpaednnhiihllkjnfheofbag">Install Extension</a>
     <br />
-    <a href="https://github.com/tanshinjie/skool-group-count">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=UoungitbX0Q">View Demo</a>
     ·
     <a href="https://forms.gle/4VyFskhXyQN3exeS9">Report Bug</a>
     ·
