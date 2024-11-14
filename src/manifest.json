@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "1 Click Skool Group Count",
-  "version": "0.1.0",
+  "name": "Skool Group Count",
+  "version": "0.1.1",
   "description": "Easily view number of groups under each category on Skool.",
   "action": {},
   "content_scripts": [

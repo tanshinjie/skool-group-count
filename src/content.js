@@ -1,13 +1,29 @@
 console.log("Content script initialised.");
 
 async function getBuildId() {
-  const buildId = fetch("https://www.skool.com/discovery").then((response) => response.text()).then((text) => {
-    const doc = new DOMParser().parseFromString(text, "text/html");
-    const pagePropsStr = doc.getElementById("__NEXT_DATA__").innerText;
-    const pageProps = JSON.parse(pagePropsStr);
-    return pageProps.buildId;
-  });
+  const buildId = fetch("https://www.skool.com/discovery")
+    .then((response) => response.text())
+    .then((text) => {
+      const doc = new DOMParser().parseFromString(text, "text/html");
+      const pagePropsStr = doc.getElementById("__NEXT_DATA__").innerText;
+      const pageProps = JSON.parse(pagePropsStr);
+      return pageProps.buildId;
+    });
   return buildId;
+}
+
+function getSearchParams() {
+  const params = new URLSearchParams(window.location.search);
+  let searchParams = "";
+  const ty = params.get("ty");
+  const fl = params.get("fl");
+  if (ty) {
+    searchParams += `ty=${ty}`;
+  }
+  if (fl) {
+    searchParams += `&fl=${fl}`;
+  }
+  return searchParams;
 }
 
 async function main() {
@@ -15,12 +31,13 @@ async function main() {
   const buildId = await getBuildId();
   console.log("buildId", buildId);
 
-  const pagePropsList = raw.pageProps.categories
-    .map((category) =>
-      fetch(
-        `https://www.skool.com/_next/data/${buildId}/discovery.json?c=${category.id}`
-      )
-    );
+  const searchParams = getSearchParams();
+
+  const pagePropsList = raw.pageProps.categories.map((category) =>
+    fetch(
+      `https://www.skool.com/_next/data/${buildId}/discovery.json?c=${category.id}&${searchParams}`
+    )
+  );
 
   Promise.all(pagePropsList)
     .then((responses) => {
